@@ -1,0 +1,16 @@
+{
+    "name": "content-factory/app",
+    "description": "Content Factory - Automated Content Management System",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ContentFactory\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
